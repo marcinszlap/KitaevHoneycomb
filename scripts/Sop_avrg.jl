@@ -11,18 +11,17 @@ function save_spin_component(path::AbstractString,
                              mg_sites::Vector{Int},
                              Nsites::Int)
     ncfg = length(mg_sites)
-    @assert length(vals_all) == ncfg "vals_all musi mieć tyle elementów co mg_Sites"
+    @assert length(vals_all) == ncfg
 
     # macierz: [i  vals(i; s=mg_sites[1])  vals(i; s=mg_sites[2]) ...]
     data = Matrix{Float64}(undef, Nsites, 1 + ncfg)
     data[:, 1] .= collect(1:Nsites)
     for (k, _) in enumerate(mg_sites)
-        @assert length(vals_all[k]) == Nsites "Każdy wektor expect musi mieć długość Nsites"
+        @assert length(vals_all[k]) == Nsites
         data[:, 1 + k] .= vals_all[k]
     end
 
     open(path, "w") do io
-        # nagłówek: pusta 1. kolumna (dla indeksu i), potem mg_Sites
         println(io, "# i\t", join(mg_sites, "\t"))
         writedlm(io, data, '\t')
     end
@@ -73,6 +72,7 @@ let
     ####### CONFIGURATION #######
     Nx = 3
     Ny = 5
+    Nsites = 2*Ny*Nx
 
     Jx = -1.0
     Jy = -1.0
@@ -81,11 +81,12 @@ let
     theta = 0.0
     phi = 0.0
 
-    mg_Sites = [2, 3, 16]
-    yperiodic = true
+    second_spin = false
+    s2_Pos = 2
 
-    second_spin = true
-    s2_Pos = 16
+    #[i for i in 1:Nsites if i != s2_Pos]
+    mg_Sites = [3, 16, 31, 38, 48, 80, 95]
+    yperiodic = true
 
     sweeps = Sweeps(5)
     maxdim!(sweeps, 100,200,300,400,500)
@@ -97,7 +98,6 @@ let
     sz_all = Vector{Vector{Float64}}()
     E_all  = Float64[]
     ####### LATTICE DEFINITION ########
-    Nsites = 2*Ny*Nx
     my_lattice = HoneyCombLattice(Nx, Ny, yperiodic=yperiodic)
 
     os_base = OpSum()
