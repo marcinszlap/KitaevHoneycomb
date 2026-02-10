@@ -1,0 +1,10 @@
+Nx = 2
+Ny = 33
+yperiodic = false
+
+[lattice]
+yperiodic = false
+
+[system]
+Nx = 2
+Ny = 33

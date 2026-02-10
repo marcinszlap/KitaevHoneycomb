@@ -1,0 +1,44 @@
+[DMRG]
+sweeps = 3
+maxdim = [20, 40, 80]
+cutoff = 1e-8
+init_linkdims = 10
+outputlevel = 1
+
+[model]
+Jx = -1.0
+Jy = -1.0
+Jz = -1.0
+
+[lattice]
+yperiodic = false
+
+[system]
+spin_type = "S=1/2"
+
+[io]
+outfile_dir = "results"
+outfile_prefix = "test"
+
+[sweep]
+# defaults (used if a job doesn't override them)
+fixed_site = 2
+angle_name = "theta"
+angle_start = 0.0
+angle_stop = "pi/2"
+angle_points = 5
+other_angle = 0.0
+special_sites = "none"
+
+[[jobs]]
+Nx = 3
+Ny = 2
+fixed_site = 2
+special_sites = "none"
+sweep_mode = "grid"
+theta_start = 0.0
+theta_stop = "2pi"
+theta_points = 10
+phi_start = 0.0
+phi_stop = "2pi"
+phi_points = 10
