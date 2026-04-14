@@ -1,0 +1,335 @@
+nohup: ignoring input
+Nbonds = 37
+Nsites = 30
+xx: 1 <-> 2
+yy: 2 <-> 12
+zz: 2 <-> 3
+xx: 3 <-> 4
+yy: 4 <-> 10
+zz: 4 <-> 5
+xx: 5 <-> 6
+yy: 6 <-> 8
+xx: 12 <-> 11
+yy: 11 <-> 13
+zz: 11 <-> 10
+xx: 10 <-> 9
+yy: 9 <-> 15
+zz: 9 <-> 8
+xx: 8 <-> 7
+yy: 7 <-> 17
+xx: 13 <-> 14
+yy: 14 <-> 24
+zz: 14 <-> 15
+xx: 15 <-> 16
+yy: 16 <-> 22
+zz: 16 <-> 17
+xx: 17 <-> 18
+yy: 18 <-> 20
+xx: 24 <-> 23
+yy: 23 <-> 25
+zz: 23 <-> 22
+xx: 22 <-> 21
+yy: 21 <-> 27
+zz: 21 <-> 20
+xx: 20 <-> 19
+yy: 19 <-> 29
+xx: 25 <-> 26
+zz: 26 <-> 27
+xx: 27 <-> 28
+zz: 28 <-> 29
+xx: 29 <-> 30
+column x = 1
+cell (1,1): A=1  B=2
+cell (1,2): A=3  B=4
+cell (1,3): A=5  B=6
+
+column x = 2
+cell (2,1): A=12  B=11
+cell (2,2): A=10  B=9
+cell (2,3): A=8  B=7
+
+column x = 3
+cell (3,1): A=13  B=14
+cell (3,2): A=15  B=16
+cell (3,3): A=17  B=18
+
+column x = 4
+cell (4,1): A=24  B=23
+cell (4,2): A=22  B=21
+cell (4,3): A=20  B=19
+
+column x = 5
+cell (5,1): A=25  B=26
+cell (5,2): A=27  B=28
+cell (5,3): A=29  B=30
+
+
+xx
+count = 15
+min   = 1
+max   = 1
+
+yy
+count = 12
+min   = 2
+max   = 10
+
+zz
+count = 10
+min   = 1
+max   = 1
+After sweep 1 energy=-5.497263  maxlinkdim=50 maxerr=2.74E-05 time=45.787
+Sweep 1 | ?E=1.000000005497263e9 | ?Spin=Inf
+After sweep 2 energy=-5.53034  maxlinkdim=100 maxerr=1.39E-05 time=0.581
+Sweep 2 | ?E=0.033077239990234375 | ?Spin=0.29256065003573895
+After sweep 3 energy=-5.5472727  maxlinkdim=150 maxerr=3.82E-06 time=0.607
+Sweep 3 | ?E=0.01693248748779297 | ?Spin=0.20769597962498665
+After sweep 4 energy=-5.553125  maxlinkdim=200 maxerr=7.69E-07 time=0.670
+Sweep 4 | ?E=0.005852222442626953 | ?Spin=0.12131345551460981
+After sweep 5 energy=-5.555677  maxlinkdim=300 maxerr=1.49E-08 time=0.663
+Sweep 5 | ?E=0.002552032470703125 | ?Spin=0.12490722630172968
+After sweep 6 energy=-5.5567036  maxlinkdim=295 maxerr=9.96E-09 time=0.650
+Sweep 6 | ?E=0.0010266304016113281 | ?Spin=0.07815686741378158
+After sweep 7 energy=-5.557071  maxlinkdim=281 maxerr=1.00E-08 time=0.637
+Sweep 7 | ?E=0.0003676414489746094 | ?Spin=0.035878070280887187
+After sweep 8 energy=-5.557327  maxlinkdim=264 maxerr=1.00E-08 time=0.646
+Sweep 8 | ?E=0.000255584716796875 | ?Spin=0.0252632237970829
+After sweep 9 energy=-5.557479  maxlinkdim=254 maxerr=9.98E-09 time=0.689
+Sweep 9 | ?E=0.00015211105346679688 | ?Spin=0.022010596469044685
+After sweep 10 energy=-5.5575953  maxlinkdim=249 maxerr=9.94E-09 time=0.654
+Sweep 10 | ?E=0.0001163482666015625 | ?Spin=0.02294662594795227
+After sweep 11 energy=-5.5577035  maxlinkdim=249 maxerr=9.96E-09 time=0.654
+Sweep 11 | ?E=0.00010824203491210938 | ?Spin=0.02293054759502411
+After sweep 12 energy=-5.557786  maxlinkdim=248 maxerr=9.99E-09 time=0.712
+Sweep 12 | ?E=8.249282836914062e-5 | ?Spin=0.02289271354675293
+After sweep 13 energy=-5.557861  maxlinkdim=245 maxerr=1.11E-07 time=1.124
+Sweep 13 | ?E=7.486343383789062e-5 | ?Spin=0.02111351490020752
+After sweep 14 energy=-5.557909  maxlinkdim=243 maxerr=1.88E-07 time=0.724
+Sweep 14 | ?E=4.8160552978515625e-5 | ?Spin=0.021374881267547607
+After sweep 15 energy=-5.5579696  maxlinkdim=241 maxerr=7.51E-08 time=0.649
+Sweep 15 | ?E=6.0558319091796875e-5 | ?Spin=0.019503459334373474
+After sweep 16 energy=-5.5580115  maxlinkdim=246 maxerr=6.93E-08 time=0.582
+Sweep 16 | ?E=4.1961669921875e-5 | ?Spin=0.018069475889205933
+After sweep 17 energy=-5.5580196  maxlinkdim=242 maxerr=5.66E-08 time=0.668
+Sweep 17 | ?E=8.106231689453125e-6 | ?Spin=0.016013935208320618
+After sweep 18 energy=-5.558063  maxlinkdim=240 maxerr=6.19E-08 time=0.636
+Sweep 18 | ?E=4.3392181396484375e-5 | ?Spin=0.014787212014198303
+After sweep 19 energy=-5.5580616  maxlinkdim=241 maxerr=8.51E-08 time=0.625
+Sweep 19 | ?E=1.430511474609375e-6 | ?Spin=0.013404347002506256
+After sweep 20 energy=-5.558096  maxlinkdim=237 maxerr=7.17E-08 time=0.646
+Sweep 20 | ?E=3.4332275390625e-5 | ?Spin=0.011414598673582077
+After sweep 21 energy=-5.558107  maxlinkdim=235 maxerr=5.34E-08 time=0.657
+Sweep 21 | ?E=1.0967254638671875e-5 | ?Spin=0.010299734771251678
+After sweep 22 energy=-5.558118  maxlinkdim=237 maxerr=4.78E-08 time=0.571
+Sweep 22 | ?E=1.0967254638671875e-5 | ?Spin=0.009834062308073044
+After sweep 23 energy=-5.55813  maxlinkdim=235 maxerr=1.01E-07 time=0.645
+Sweep 23 | ?E=1.1920928955078125e-5 | ?Spin=0.008705079555511475
+After sweep 24 energy=-5.5581183  maxlinkdim=235 maxerr=7.37E-08 time=0.629
+Sweep 24 | ?E=1.1444091796875e-5 | ?Spin=0.008210796862840652
+After sweep 25 energy=-5.558142  maxlinkdim=233 maxerr=1.50E-07 time=0.634
+Sweep 25 | ?E=2.384185791015625e-5 | ?Spin=0.007918518036603928
+After sweep 26 energy=-5.5581574  maxlinkdim=235 maxerr=4.26E-08 time=0.624
+Sweep 26 | ?E=1.52587890625e-5 | ?Spin=0.00599423423409462
+After sweep 27 energy=-5.5581465  maxlinkdim=230 maxerr=5.12E-08 time=0.576
+Sweep 27 | ?E=1.0967254638671875e-5 | ?Spin=0.005651924759149551
+After sweep 28 energy=-5.5581794  maxlinkdim=233 maxerr=8.99E-08 time=0.705
+Sweep 28 | ?E=3.2901763916015625e-5 | ?Spin=0.004423253238201141
+After sweep 29 energy=-5.5581627  maxlinkdim=233 maxerr=8.50E-08 time=0.641
+Sweep 29 | ?E=1.6689300537109375e-5 | ?Spin=0.0038548633456230164
+After sweep 30 energy=-5.558143  maxlinkdim=232 maxerr=7.00E-08 time=0.626
+Sweep 30 | ?E=1.9550323486328125e-5 | ?Spin=0.003987543284893036
+After sweep 31 energy=-5.55817  maxlinkdim=231 maxerr=6.30E-08 time=0.617
+Sweep 31 | ?E=2.6702880859375e-5 | ?Spin=0.0030657239258289337
+After sweep 32 energy=-5.5581694  maxlinkdim=234 maxerr=7.56E-08 time=0.567
+Sweep 32 | ?E=4.76837158203125e-7 | ?Spin=0.0029993541538715363
+After sweep 33 energy=-5.5581617  maxlinkdim=234 maxerr=8.99E-08 time=0.629
+Sweep 33 | ?E=7.62939453125e-6 | ?Spin=0.002282872796058655
+After sweep 34 energy=-5.5581627  maxlinkdim=232 maxerr=2.53E-08 time=0.615
+Sweep 34 | ?E=9.5367431640625e-7 | ?Spin=0.0021077394485473633
+After sweep 35 energy=-5.5581727  maxlinkdim=233 maxerr=1.56E-07 time=0.621
+Sweep 35 | ?E=1.0013580322265625e-5 | ?Spin=0.001993868499994278
+After sweep 36 energy=-5.558162  maxlinkdim=231 maxerr=9.89E-08 time=0.550
+Sweep 36 | ?E=1.049041748046875e-5 | ?Spin=0.0017315484583377838
+After sweep 37 energy=-5.5581546  maxlinkdim=232 maxerr=1.00E-07 time=0.555
+Sweep 37 | ?E=7.62939453125e-6 | ?Spin=0.001552145928144455
+After sweep 38 energy=-5.5581627  maxlinkdim=231 maxerr=8.36E-08 time=0.622
+Sweep 38 | ?E=8.106231689453125e-6 | ?Spin=0.0014628134667873383
+After sweep 39 energy=-5.558185  maxlinkdim=231 maxerr=7.29E-08 time=0.626
+Sweep 39 | ?E=2.2411346435546875e-5 | ?Spin=0.0013321824371814728
+After sweep 40 energy=-5.558184  maxlinkdim=233 maxerr=1.18E-07 time=0.551
+Sweep 40 | ?E=9.5367431640625e-7 | ?Spin=0.0013319477438926697
+After sweep 41 energy=-5.5581584  maxlinkdim=231 maxerr=6.00E-08 time=0.552
+Sweep 41 | ?E=2.574920654296875e-5 | ?Spin=0.0011771079152822495
+After sweep 42 energy=-5.558169  maxlinkdim=230 maxerr=1.59E-07 time=0.620
+Sweep 42 | ?E=1.049041748046875e-5 | ?Spin=0.00114382803440094
+After sweep 43 energy=-5.5581727  maxlinkdim=232 maxerr=7.86E-08 time=0.623
+Sweep 43 | ?E=3.814697265625e-6 | ?Spin=0.0010182298719882965
+After sweep 44 energy=-5.5581636  maxlinkdim=233 maxerr=1.04E-07 time=0.546
+Sweep 44 | ?E=9.059906005859375e-6 | ?Spin=0.0010087043046951294
+After sweep 45 energy=-5.5581636  maxlinkdim=231 maxerr=5.08E-08 time=0.553
+Sweep 45 | ?E=0.0 | ?Spin=0.0009302813559770584
+After sweep 46 energy=-5.558161  maxlinkdim=232 maxerr=4.72E-08 time=0.616
+Sweep 46 | ?E=2.86102294921875e-6 | ?Spin=0.0008422676473855972
+After sweep 47 energy=-5.558177  maxlinkdim=232 maxerr=1.03E-07 time=0.616
+Sweep 47 | ?E=1.621246337890625e-5 | ?Spin=0.0008081095293164253
+After sweep 48 energy=-5.558174  maxlinkdim=234 maxerr=4.48E-08 time=0.544
+Sweep 48 | ?E=2.86102294921875e-6 | ?Spin=0.0008587753400206566
+After sweep 49 energy=-5.5581727  maxlinkdim=231 maxerr=8.88E-08 time=0.563
+Sweep 49 | ?E=1.430511474609375e-6 | ?Spin=0.0007245279848575592
+After sweep 50 energy=-5.5581865  maxlinkdim=231 maxerr=9.88E-08 time=0.641
+Sweep 50 | ?E=1.3828277587890625e-5 | ?Spin=0.0007381066679954529
+After sweep 51 energy=-5.558184  maxlinkdim=231 maxerr=5.61E-08 time=0.621
+Sweep 51 | ?E=2.384185791015625e-6 | ?Spin=0.0007085446268320084
+After sweep 52 energy=-5.558177  maxlinkdim=231 maxerr=1.53E-07 time=0.546
+Sweep 52 | ?E=7.152557373046875e-6 | ?Spin=0.000681854784488678
+After sweep 53 energy=-5.55817  maxlinkdim=232 maxerr=6.77E-08 time=0.552
+Sweep 53 | ?E=7.152557373046875e-6 | ?Spin=0.000619176309555769
+After sweep 54 energy=-5.5581746  maxlinkdim=233 maxerr=9.60E-08 time=0.616
+Sweep 54 | ?E=4.76837158203125e-6 | ?Spin=0.0006542173214256763
+After sweep 55 energy=-5.558162  maxlinkdim=233 maxerr=9.72E-08 time=0.615
+Sweep 55 | ?E=1.239776611328125e-5 | ?Spin=0.0006063971668481827
+After sweep 56 energy=-5.558186  maxlinkdim=233 maxerr=1.00E-07 time=0.541
+Sweep 56 | ?E=2.384185791015625e-5 | ?Spin=0.0005881413817405701
+After sweep 57 energy=-5.5581827  maxlinkdim=234 maxerr=6.23E-08 time=0.551
+Sweep 57 | ?E=3.337860107421875e-6 | ?Spin=0.0006150342524051666
+After sweep 58 energy=-5.558172  maxlinkdim=231 maxerr=6.33E-08 time=0.620
+Sweep 58 | ?E=1.049041748046875e-5 | ?Spin=0.00061754509806633
+After sweep 59 energy=-5.558184  maxlinkdim=232 maxerr=4.34E-08 time=0.618
+Sweep 59 | ?E=1.1920928955078125e-5 | ?Spin=0.0006211400032043457
+After sweep 60 energy=-5.558167  maxlinkdim=232 maxerr=2.16E-07 time=0.543
+Sweep 60 | ?E=1.71661376953125e-5 | ?Spin=0.0005907118320465088
+
+=== GROUND STATE ===
+E0      = -5.558167
+var0    = 0.00024223328
+maxdim0 = 232
+After sweep 1 energy=-5.489308527448101  maxlinkdim=50 maxerr=9.88E-05 time=53.353
+Sweep 1 | ?E=1.0000000054893085e9 | ?Spin=Inf
+After sweep 2 energy=-5.531381768807844  maxlinkdim=100 maxerr=2.37E-05 time=1.250
+Sweep 2 | ?E=0.04207324135974311 | ?Spin=0.35173852501896186
+After sweep 3 energy=-5.547807573514276  maxlinkdim=150 maxerr=5.99E-06 time=1.659
+Sweep 3 | ?E=0.016425804706432068 | ?Spin=0.1967687218678188
+After sweep 4 energy=-5.55377119305083  maxlinkdim=200 maxerr=1.00E-06 time=2.161
+Sweep 4 | ?E=0.005963619536553999 | ?Spin=0.12256045857029371
+After sweep 5 energy=-5.555852372815827  maxlinkdim=300 maxerr=3.87E-08 time=2.680
+Sweep 5 | ?E=0.0020811797649971098 | ?Spin=0.0592458230233646
+After sweep 6 energy=-5.556702572612981  maxlinkdim=335 maxerr=1.00E-08 time=2.927
+Sweep 6 | ?E=0.0008501997971537278 | ?Spin=0.035631679830037934
+After sweep 7 energy=-5.557118627560918  maxlinkdim=331 maxerr=9.96E-09 time=2.861
+Sweep 7 | ?E=0.00041605494793728326 | ?Spin=0.02254870137123921
+After sweep 8 energy=-5.5574166078761005  maxlinkdim=328 maxerr=9.99E-09 time=2.770
+Sweep 8 | ?E=0.0002979803151825777 | ?Spin=0.016612789914187086
+After sweep 9 energy=-5.557661435509192  maxlinkdim=341 maxerr=9.99E-09 time=2.683
+Sweep 9 | ?E=0.0002448276330913046 | ?Spin=0.018572197253283046
+After sweep 10 energy=-5.557806444264519  maxlinkdim=328 maxerr=9.97E-09 time=2.576
+Sweep 10 | ?E=0.00014500875532696966 | ?Spin=0.014171005363471639
+After sweep 11 energy=-5.557922474934032  maxlinkdim=325 maxerr=9.97E-09 time=2.514
+Sweep 11 | ?E=0.00011603066951337837 | ?Spin=0.01405369079681023
+After sweep 12 energy=-5.557984919316084  maxlinkdim=314 maxerr=9.99E-09 time=2.446
+Sweep 12 | ?E=6.244438205182945e-5 | ?Spin=0.008830003235836777
+After sweep 13 energy=-5.558035094643524  maxlinkdim=309 maxerr=9.99E-09 time=2.099
+Sweep 13 | ?E=5.017532744044928e-5 | ?Spin=0.008082567849705555
+After sweep 14 energy=-5.558073571111661  maxlinkdim=308 maxerr=1.00E-08 time=1.959
+Sweep 14 | ?E=3.847646813692762e-5 | ?Spin=0.007058855525081108
+After sweep 15 energy=-5.558102232743542  maxlinkdim=304 maxerr=9.87E-09 time=1.948
+Sweep 15 | ?E=2.8661631880311234e-5 | ?Spin=0.005960168954403116
+After sweep 16 energy=-5.558124627865355  maxlinkdim=302 maxerr=9.97E-09 time=1.993
+Sweep 16 | ?E=2.239512181301251e-5 | ?Spin=0.005187520650939347
+After sweep 17 energy=-5.558141825973091  maxlinkdim=302 maxerr=9.96E-09 time=1.998
+Sweep 17 | ?E=1.7198107736149382e-5 | ?Spin=0.004493310812857008
+After sweep 18 energy=-5.558154442993056  maxlinkdim=303 maxerr=9.99E-09 time=1.967
+Sweep 18 | ?E=1.2617019964800136e-5 | ?Spin=0.0036886732663015363
+After sweep 19 energy=-5.558164189375239  maxlinkdim=304 maxerr=9.98E-09 time=1.971
+Sweep 19 | ?E=9.746382183095648e-6 | ?Spin=0.0031656583566531393
+After sweep 20 energy=-5.5581717228948815  maxlinkdim=305 maxerr=9.95E-09 time=1.976
+Sweep 20 | ?E=7.533519642777264e-6 | ?Spin=0.0026933168569446397
+After sweep 21 energy=-5.558177577491039  maxlinkdim=307 maxerr=9.98E-09 time=1.943
+Sweep 21 | ?E=5.854596157206515e-6 | ?Spin=0.00229646780370258
+After sweep 22 energy=-5.55818222942909  maxlinkdim=308 maxerr=9.88E-09 time=1.961
+Sweep 22 | ?E=4.651938051658533e-6 | ?Spin=0.002008529701483089
+After sweep 23 energy=-5.5581860622443156  maxlinkdim=308 maxerr=9.99E-09 time=1.954
+Sweep 23 | ?E=3.832815225202069e-6 | ?Spin=0.0018027386361002748
+After sweep 24 energy=-5.558189287879777  maxlinkdim=307 maxerr=9.92E-09 time=1.947
+Sweep 24 | ?E=3.2256354618453997e-6 | ?Spin=0.001641410919158915
+After sweep 25 energy=-5.558192010025216  maxlinkdim=306 maxerr=1.00E-08 time=1.970
+Sweep 25 | ?E=2.722145438838197e-6 | ?Spin=0.0014797287091179896
+After sweep 26 energy=-5.5581943258340525  maxlinkdim=306 maxerr=9.99E-09 time=1.990
+Sweep 26 | ?E=2.31580883625071e-6 | ?Spin=0.001337108552865415
+After sweep 27 energy=-5.558196318878338  maxlinkdim=306 maxerr=1.00E-08 time=1.956
+Sweep 27 | ?E=1.993044285164558e-6 | ?Spin=0.0012137540265408937
+After sweep 28 energy=-5.558198058398345  maxlinkdim=306 maxerr=9.99E-09 time=1.955
+Sweep 28 | ?E=1.7395200071490535e-6 | ?Spin=0.0011061890889436134
+After sweep 29 energy=-5.558199598509719  maxlinkdim=306 maxerr=1.00E-08 time=1.960
+Sweep 29 | ?E=1.540111374431774e-6 | ?Spin=0.0010149102746806228
+After sweep 30 energy=-5.558200990663359  maxlinkdim=306 maxerr=9.96E-09 time=1.968
+Sweep 30 | ?E=1.3921536394789769e-6 | ?Spin=0.0009436224664608125
+After sweep 31 energy=-5.5582022616056825  maxlinkdim=305 maxerr=1.00E-08 time=1.975
+Sweep 31 | ?E=1.2709423238277395e-6 | ?Spin=0.0008804626358832734
+After sweep 32 energy=-5.558203436762773  maxlinkdim=305 maxerr=9.97E-09 time=1.955
+Sweep 32 | ?E=1.1751570907492237e-6 | ?Spin=0.0008231210579690198
+After sweep 33 energy=-5.5582045186070435  maxlinkdim=304 maxerr=9.97E-09 time=1.945
+Sweep 33 | ?E=1.0818442701676645e-6 | ?Spin=0.0007747906166975585
+After sweep 34 energy=-5.558205562168484  maxlinkdim=303 maxerr=9.95E-09 time=1.951
+Sweep 34 | ?E=1.0435614408166316e-6 | ?Spin=0.0007268966434995899
+After sweep 35 energy=-5.558206557160653  maxlinkdim=303 maxerr=9.96E-09 time=1.950
+Sweep 35 | ?E=9.949921686569496e-7 | ?Spin=0.0007142091825007076
+After sweep 36 energy=-5.558207497069866  maxlinkdim=302 maxerr=1.00E-08 time=1.952
+Sweep 36 | ?E=9.399092126827213e-7 | ?Spin=0.0006907853327065283
+After sweep 37 energy=-5.558208402853865  maxlinkdim=302 maxerr=1.00E-08 time=1.944
+Sweep 37 | ?E=9.057839998050099e-7 | ?Spin=0.0007144352704439999
+After sweep 38 energy=-5.558209271417401  maxlinkdim=302 maxerr=9.93E-09 time=1.947
+Sweep 38 | ?E=8.685635357608135e-7 | ?Spin=0.0007324743195334799
+After sweep 39 energy=-5.558210104469773  maxlinkdim=301 maxerr=1.00E-08 time=1.940
+Sweep 39 | ?E=8.330523719735083e-7 | ?Spin=0.0007518559576110417
+After sweep 40 energy=-5.55821091390951  maxlinkdim=301 maxerr=1.00E-08 time=1.931
+Sweep 40 | ?E=8.094397365709938e-7 | ?Spin=0.0007720680552357334
+After sweep 41 energy=-5.558211710339816  maxlinkdim=301 maxerr=9.95E-09 time=1.945
+Sweep 41 | ?E=7.964303065932654e-7 | ?Spin=0.0007936121694723658
+After sweep 42 energy=-5.558212481342156  maxlinkdim=300 maxerr=9.92E-09 time=1.946
+Sweep 42 | ?E=7.710023393059373e-7 | ?Spin=0.0008158402104304907
+After sweep 43 energy=-5.558213232738292  maxlinkdim=300 maxerr=9.90E-09 time=1.948
+Sweep 43 | ?E=7.513961364224997e-7 | ?Spin=0.0008350208526287095
+After sweep 44 energy=-5.558213977304591  maxlinkdim=300 maxerr=9.95E-09 time=1.935
+Sweep 44 | ?E=7.445662992822122e-7 | ?Spin=0.000851938810047928
+After sweep 45 energy=-5.558214698564916  maxlinkdim=299 maxerr=9.95E-09 time=1.926
+Sweep 45 | ?E=7.212603243544891e-7 | ?Spin=0.0008715985371545998
+After sweep 46 energy=-5.558215407523902  maxlinkdim=299 maxerr=9.99E-09 time=1.924
+Sweep 46 | ?E=7.089589866282608e-7 | ?Spin=0.0008881144351167297
+After sweep 47 energy=-5.558216103337574  maxlinkdim=298 maxerr=1.00E-08 time=1.913
+Sweep 47 | ?E=6.958136715695673e-7 | ?Spin=0.0009049413062573036
+After sweep 48 energy=-5.558216795242585  maxlinkdim=298 maxerr=1.00E-08 time=1.932
+Sweep 48 | ?E=6.919050115072878e-7 | ?Spin=0.0009214297172439184
+After sweep 49 energy=-5.558217476096139  maxlinkdim=298 maxerr=9.99E-09 time=1.952
+Sweep 49 | ?E=6.808535539803984e-7 | ?Spin=0.0009401584334734758
+After sweep 50 energy=-5.558218147268621  maxlinkdim=297 maxerr=9.98E-09 time=1.948
+Sweep 50 | ?E=6.711724820362974e-7 | ?Spin=0.0009585776996566958
+After sweep 51 energy=-5.558218813048472  maxlinkdim=297 maxerr=9.94E-09 time=1.945
+Sweep 51 | ?E=6.657798508058477e-7 | ?Spin=0.0009777281504522867
+After sweep 52 energy=-5.558219464115918  maxlinkdim=296 maxerr=9.97E-09 time=1.944
+Sweep 52 | ?E=6.510674461779331e-7 | ?Spin=0.0009968984365457956
+After sweep 53 energy=-5.558220172240629  maxlinkdim=296 maxerr=9.93E-09 time=1.954
+Sweep 53 | ?E=7.081247108686739e-7 | ?Spin=0.0011564748064693542
+After sweep 54 energy=-5.558220859301478  maxlinkdim=296 maxerr=9.99E-09 time=1.938
+Sweep 54 | ?E=6.870608491027497e-7 | ?Spin=0.001122238205295334
+After sweep 55 energy=-5.558221564629458  maxlinkdim=296 maxerr=9.97E-09 time=1.944
+Sweep 55 | ?E=7.053279800217638e-7 | ?Spin=0.001158054769809888
+After sweep 56 energy=-5.558222258529715  maxlinkdim=295 maxerr=9.99E-09 time=1.948
+Sweep 56 | ?E=6.939002563655094e-7 | ?Spin=0.001196542722079294
+After sweep 57 energy=-5.558222951299602  maxlinkdim=295 maxerr=9.99E-09 time=1.967
+Sweep 57 | ?E=6.927698876779687e-7 | ?Spin=0.0012227174569214294
+After sweep 58 energy=-5.558223642491804  maxlinkdim=294 maxerr=9.97E-09 time=1.968
+Sweep 58 | ?E=6.911922012520222e-7 | ?Spin=0.001250005078623606
+After sweep 59 energy=-5.558224330526932  maxlinkdim=294 maxerr=9.97E-09 time=1.963
+Sweep 59 | ?E=6.880351284266339e-7 | ?Spin=0.0012779902290410011
+After sweep 60 energy=-5.558225013758625  maxlinkdim=294 maxerr=9.99E-09 time=1.980
+Sweep 60 | ?E=6.832316925553528e-7 | ?Spin=0.001308304668988014
+
+=== FIRST ORTHOGONAL STATE ===
+E1      = -5.558225013758625
+var1    = 1.9817084329076806e-6
+maxdim1 = 294
+gap01   = -5.80330152164521e-5
+|<0|1>| = 4.549587433644286e-6
+PWD = /home/marcins
+Script dir = /home/marcins/KitaevHoneycomb/scripts
+Writing to = results/5x3_PBC=false_Jx=-1.0_Jy=-1.0_Jz=-1.0/Savrg_theta=1.5707963267948966_phi=1.5707963267948966_15
