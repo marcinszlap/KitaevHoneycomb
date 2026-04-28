@@ -114,6 +114,12 @@ function site_index_snake(x::Int, y::Int, sub::Int, Nx::Int, Ny::Int)
     return col_offset + 2 * (yeff - 1) + subeff
 end
 
+function site_index_snake_reverse(x, y, sub, Nx, Ny)
+    Nsites = 2 * Nx * Ny
+    i = site_index_snake(x, y, sub, Nx, Ny)
+    return Nsites - i + 1
+end
+
 function energy_variance(H::MPO, psi::MPS)
     E = inner(psi', H, psi)
     H2 = inner(H, psi, H, psi)
@@ -132,8 +138,8 @@ function HoneyCombLattice(Nx::Int, Ny::Int; yperiodic=false)::Lattice
 
     latt = LatticeBond[]
 
-    A(x,y) = site_index_snake(x,y,1,Nx,Ny)
-    B(x,y) = site_index_snake(x,y,2,Nx,Ny)
+    A(x,y) = site_index_snake_reverse(x,y,1,Nx,Ny)
+    B(x,y) = site_index_snake_reverse(x,y,2,Nx,Ny)
     for x in 1:Nx
         for y in 1:Ny
             push!(latt, LatticeBond(A(x,y), B(x,y), 0.0, 0.0, 0.0, 0.0, "xx"))
